@@ -11,7 +11,6 @@ chapter : false
 Đây là chuỗi hành trình lên mây của mình!!!
 
 ### Nội dung
-
- 1. [Tạo mới tài khoản AWS](1-CreateNewAWSAccount/)
- 2. [Thiết lập với thiết bị MFA ảo](2-Prerequiste/)
-
+  - [Khám phá các dịch vụ AWS](1-ExploreAWSService)
+    - [Tạo mới tài khoản AWS](1-ExploreAWSService/1.1-CreateNewAWSAccount/)
+    - [Thiết lập MFA cho tài khoản AWS](1-ExploreAWSService/1.2-MFAforAWSAccount/)

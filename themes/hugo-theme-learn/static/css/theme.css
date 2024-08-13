@@ -67,6 +67,12 @@ body #chapter h1 {
         font-size: 2rem;
     }
 }
+strong {
+  color: darkcyan;
+}
+a strong {
+  color: #00bdf3;
+}
 a {
     color: #00bdf3;
 }

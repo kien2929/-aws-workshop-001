@@ -11,5 +11,6 @@ chapter : false
 This is my journey to the clouds!!!
 
 ### Content
- 1. [Create new AWS account](1-CreateNewAWSAccount/)
- 2. [Setup with Virtual MFA Device](2-SetupVirtualMFADevice/)
+  - [Explore AWS services](1-ExploreAWSService)
+    - [Create new AWS account](1-ExploreAWSService/1.1-CreateNewAWSAccount/)
+    - [MFA for AWS Account](1-ExploreAWSService/1.2-MFAforAWSAccount/)
