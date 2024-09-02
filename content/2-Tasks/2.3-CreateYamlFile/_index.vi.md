@@ -96,6 +96,7 @@ phases:
    - Đăng nhập vào **AWS Management Console**.
    - Điều hướng đến **Parameter Store** bằng cách tìm `Parameter Store` trong thanh tìm kiếm.
    - Nhấp vào **Create parameter**.
+![Create-Parameter](/images/2-TaskList/2.3-CreateYamlFile/create-parameter.png)
    - Điền **Name** là **DB_URL**
    - Điền **Value** là `jdbc:mysql://my-mysql-instance.c3e6oeawqqnk.us-east-1.rds.amazonaws.com:3306/employee_management`
    - Trong đó `my-mysql-instance.c3e6oeawqqnk.us-east-1.rds.amazonaws.com`,  `employee_management` lần lượt là **endpoint** và **Initial database name** của RDS instance đã tạo ở bước nhiệm vụ trước.
