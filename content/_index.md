@@ -1,16 +1,24 @@
 ---
-title : "First Cloud Journey"
-date :  "`r Sys.Date()`"
-weight : 1
-chapter : false
+title: "Building a Scalable and Highly Available Web Application"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
 ---
-# First Cloud Journey
 
-![FirstCloudJourney](/images/Cloud-Journey-1.png)
+# Building a Scalable and Highly Available Web Application
 
-This is my journey to the clouds!!!
+## Overview
 
-### Content
-  - [Explore AWS services](1-ExploreAWSService)
-    - [Create new AWS account](1-ExploreAWSService/1.1-CreateNewAWSAccount/)
-    - [MFA for AWS Account](1-ExploreAWSService/1.2-MFAforAWSAccount/)
+This application will build a web application divided into frontend and backend.
+1. The frontend is automatically CICD from a Github repository, built, and deployed to AWS S3.
+2. The backend is automatically CICD from a Github repository, built, and deployed to AWS EC2.
+3. Ensure backend scalability using an Application Load Balancer and Auto Scaling Group.
+4. The database uses Multi-AZ to ensure high availability.
+
+### Workshop Goals
+
+In this workshop, you will practice the following:
+- Create a VPC to isolate resources.
+- Create an RDS database with the multi-AZ option.
+- Create an Auto Scaling Group and Load Balancer for the application.
+- Implement CICD with Github, CodeBuild, CodeDeploy, S3, and EC2.
