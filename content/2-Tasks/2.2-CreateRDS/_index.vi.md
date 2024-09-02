@@ -3,7 +3,7 @@ title : "Tạo database RDS MySQL"
 date :  "`r Sys.Date()`"
 weight : 2
 chapter : false
-pre : " <b> 2.2 </b> "
+pre : " <b> 2.2. </b> "
 ---
 
 ## Giới thiệu
@@ -16,6 +16,7 @@ Trong hướng dẫn này, chúng ta sẽ thực hiện các bước sau:
 1. Tạo RDS Instance với MySQL engine.
 2. Cấu hình thông số cho RDS.
 3. Kiểm Tra và Tạo RDS Instance
+4. Thêm thiết lập Multi-AZ cho Database
 
 ## Các bước thực hiện
 

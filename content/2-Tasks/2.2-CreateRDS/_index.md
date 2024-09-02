@@ -3,7 +3,7 @@ title : "Create an RDS MySQL database"
 date : "`r Sys.Date()`"
 weight : 2
 chapter : false
-pre : " <b> 2.2 </b> "
+pre : " <b> 2.2. </b> "
 ---
 
 ## Introduction
@@ -16,6 +16,7 @@ In this guide, we will perform the following steps:
 1. Create an RDS Instance with the MySQL engine.
 2. Configure the RDS parameters.
 3. Review and create the RDS Instance.
+4. Add Multi-AZ Setup for the Database.
 
 ## Steps to Follow
 
