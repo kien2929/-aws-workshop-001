@@ -13,4 +13,4 @@ pre : " <b> 2. </b> "
 3. Tạo các file cấu hình YML cho Frontend và Backend
 4. Tạo Launch Template, Auto Scaling Group, Load Balancer
 5. Tạo CodePipeline, CodeBuild, CodeDeploy cho CICD Backend
-6. Tao S3 Bucket, CodePipeline, CodeBuild, CodeDeploy cho CICD Frontend
+6. Tạo S3 Bucket, CodePipeline, CodeBuild, CodeDeploy cho CICD Frontend
