@@ -6,7 +6,7 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 [permalinks]
-  page = "/aws-workshop/:slug/"
+  page = "/aws-workshop-001/:slug/"
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".

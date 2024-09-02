@@ -51,7 +51,7 @@ Contents:
 ## Choose Support Plan
 AWS provides different plans with additional services like 24/7 support, best practice advisors, and additional guidance. With each higher-tiered plan, there are more services and additional costs.
 
-On the next page, you can select a support plan for your business or personal account. There are five support plans available. For this article, we will be choosing the **Basic support - Free plan**. You can learn more about the different plans and features available by navigating to the [Compare Support Plans](https://aws.amazon.com/premiumsupport/plans/) page.
+On the next page, you can select a support plan for your business or personal account. There are five support plans available. For this hands-on, I will be choosing the **Basic support - Free plan**. You can learn more about the different plans and features available by navigating to the [Compare Support Plans](https://aws.amazon.com/premiumsupport/plans/) page.
 
 We will choose a plan by marking the corresponding radio button.
 Then, we’ll select **Complete sign up** to finish.

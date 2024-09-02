@@ -60,8 +60,8 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Replace image paths
         run: |
-          find public -type f -name "*.html" -exec sed -i 's/\/images\//\/aws-workshop\/images\//g' {} +
-          find public -type f -name "*.css" -exec sed -i 's/\/images\//\/aws-workshop\/images\//g' {} +
+          find public -type f -name "*.html" -exec sed -i 's/\/images\//\/aws-workshop-001\/images\//g' {} +
+          find public -type f -name "*.css" -exec sed -i 's/\/images\//\/aws-workshop-001\/images\//g' {} +
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
