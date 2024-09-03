@@ -55,3 +55,19 @@ Sau khi hoàn thành workshop, việc dọn dẹp các tài nguyên AWS đã t�
 1. Điều hướng đến **IAM** trong **AWS Management Console**.
 2. Chọn **Roles** và xóa các vai trò đã tạo cho CodeBuild, CodeDeploy, và các dịch vụ khác.
 3. Chọn **Policies** và xóa các chính sách tùy chỉnh đã tạo.
+
+### 8. Xóa RDS Instance
+
+1. Điều hướng đến **RDS** trong **AWS Management Console**.
+2. Chọn **Databases** và chọn RDS instance mà bạn đã tạo.
+3. Nhấp vào **Delete**.
+4. Bỏ chọn **Create final snapshot** để không tạo bản sao lưu cuối cùng (hoặc chọn tạo nếu bạn muốn).
+5. Chọn **Delete automated backups** để xóa các bản sao lưu tự động.
+6. Nhập **delete me** vào ô xác nhận và nhấp **Delete**.
+
+### 9. Xóa VPC
+
+1. Điều hướng đến **VPC** trong **AWS Management Console**.
+2. Chọn **Your VPCs** và chọn VPC đã tạo.
+3. Xóa tất cả các **Subnets**, **Route Tables**, **Internet Gateways**, và **NAT Gateways** liên kết với VPC.
+4. Sau khi đã xóa tất cả các tài nguyên liên quan, chọn VPC và nhấp vào **Delete VPC**.
