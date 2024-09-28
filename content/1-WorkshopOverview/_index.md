@@ -24,12 +24,12 @@ The Employee Management application consists of two parts: Backend and Frontend.
 
 ### CI/CD for Backend
 
-The source code for the Backend application will be stored on GitHub. A trigger will be set up to run the CI/CD pipeline whenever a PUSH action occurs on the main branch. Since the application is written in JAVA, the **CodeBuild** step will use environment variables stored in the **Parameter Store** to build the application into a JAR file. In the CodeDeploy step, the JAR file will be used to deploy the application to the server. CodeDeploy will manage stopping and starting the application.
+[The source code for the Backend application](/files/employeemanagmentbackend.zip/) will be stored on GitHub. A trigger will be set up to run the CI/CD pipeline whenever a PUSH action occurs on the main branch. Since the application is written in JAVA, the **CodeBuild** step will use environment variables stored in the **Parameter Store** to build the application into a JAR file. In the CodeDeploy step, the JAR file will be used to deploy the application to the server. CodeDeploy will manage stopping and starting the application.
 
 ![Backend-CICD](/images/1-WorkshopOverview/Backend-CICD.drawio.png)
 
 ### CI/CD for Frontend
 
-The source code for the Frontend application will be stored on GitHub. A trigger will be set up to run the CI/CD pipeline whenever a PUSH action occurs on the main branch. Since the application is built on the ReactJS framework, the **CodeBuild** step will build the application into static files such as HTML, CSS, and JavaScript, which are then pushed to an **S3** bucket to run as a website.
+[The source code for the Frontend application](/files/employeemanagement-frontend.zip) will be stored on GitHub. A trigger will be set up to run the CI/CD pipeline whenever a PUSH action occurs on the main branch. Since the application is built on the ReactJS framework, the **CodeBuild** step will build the application into static files such as HTML, CSS, and JavaScript, which are then pushed to an **S3** bucket to run as a website.
 
 ![Frontend-CICD](/images/1-WorkshopOverview/Frontend-CICD.drawio.png)

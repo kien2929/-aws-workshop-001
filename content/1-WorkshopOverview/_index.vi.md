@@ -23,12 +23,12 @@ Workshop này sẽ kéo dài khoảng 2 tiếng
 
 ### CICD ở phía Backend
 
-Mã nguồn ứng dụng Backend sẽ được lưu trữ trên Github. Thiết lập 1 trigger khi có hành động PUSH ở nhánh main thì sẽ chạy CICD cho ứng dụng. Vì ứng dụng được viết bằng ngôn ngữ JAVA nên ở bước **CodeBuild** sẽ kết hợp với các biến môi trường đươc lưu trong **Parameter Store** để build ứng dụng ra file JAR. Ơ bước CodeDeploy sẽ sử dụng file JAR để deploy ứng dụng lên server. CodeDeploy sẽ đóng vai trò dừng và khởi động tại ứng dụng.
+[Mã nguồn ứng dụng Backend](/files/employeemanagmentbackend.zip/) sẽ được lưu trữ trên Github. Thiết lập 1 trigger khi có hành động PUSH ở nhánh main thì sẽ chạy CICD cho ứng dụng. Vì ứng dụng được viết bằng ngôn ngữ JAVA nên ở bước **CodeBuild** sẽ kết hợp với các biến môi trường đươc lưu trong **Parameter Store** để build ứng dụng ra file JAR. Ơ bước CodeDeploy sẽ sử dụng file JAR để deploy ứng dụng lên server. CodeDeploy sẽ đóng vai trò dừng và khởi động tại ứng dụng.
 
 ![Backend-CICD](/images/1-WorkshopOverview/Backend-CICD.drawio.png)
 
 ### CICD ở phía Frontend
 
-Mã nguồn ứng dụng Frontend sẽ được lưu trữ trên Github. Thiết lập 1 trigger khi có hành động PUSH ở nhánh main thì sẽ chạy CICD cho ứng dụng. Vì ứng dụng được xây dựng trên framework ReactJS nên ở bước **CodeBuild** build ứng dụng ra các file static file như HTML, CSS, JavaScript sau đấy đẩy vào **S3** bucket để chạy như là 1 website.
+[Mã nguồn ứng dụng Frontend](/files/employeemanagement-frontend.zip) sẽ được lưu trữ trên Github. Thiết lập 1 trigger khi có hành động PUSH ở nhánh main thì sẽ chạy CICD cho ứng dụng. Vì ứng dụng được xây dựng trên framework ReactJS nên ở bước **CodeBuild** build ứng dụng ra các file static file như HTML, CSS, JavaScript sau đấy đẩy vào **S3** bucket để chạy như là 1 website.
 
 ![Frontend-CICD](/images/1-WorkshopOverview/Frontend-CICD.drawio.png)
